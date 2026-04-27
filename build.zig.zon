@@ -1,7 +1,7 @@
 .{
     .name = .Skribidi,
     .version = "0.0.0",
-    .minimum_zig_version = "0.15.2",
+    .minimum_zig_version = "0.16.0",
     .fingerprint = 0x62432dd20c5219a,
     .paths = .{"."},
 
