@@ -1,0 +1,14 @@
+.{
+    .name = .unibreak,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0xbfbe8e70fd6a04af,
+    .paths = .{"."},
+
+    .dependencies = .{
+        .unibreak = .{
+            .url = "git+https://github.com/adah1972/libunibreak#304585d8e2d63187507368d612c3d5fff1486368",
+            .hash = "N-V-__8AAP2WJABz8MG5j9kMMtJ9PAOyWLtDoNv50lL2eAQH",
+        },
+    },
+}

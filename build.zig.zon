@@ -1,0 +1,18 @@
+.{
+    .name = .Skribidi,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.15.2",
+    .fingerprint = 0x62432dd20c5219a,
+    .paths = .{"."},
+
+    .dependencies = .{
+        .Skribidi = .{
+            .url = "git+https://github.com/memononen/Skribidi#cc2e0da18acdf74252e4d67b30527476cabf3184",
+            .hash = "N-V-__8AABVbRQLvoLIu65R1o8Hp5ohwdFmak0im2V6v-WFn",
+        },
+        .sheen = .{ .path = "./deps/sheen" },
+        .harfbuzz = .{ .path = "./deps/harfbuzz" },
+        .unibreak = .{ .path = "./deps/unibreak" },
+        .budouxc = .{ .path = "./deps/budouxc" },
+    },
+}

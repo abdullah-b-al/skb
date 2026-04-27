@@ -1,0 +1,14 @@
+.{
+    .name = .budouxc,
+    .version = "0.0.0",
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0xb43a41bfe3483c72,
+    .paths = .{"."},
+
+    .dependencies = .{
+        .budouxc = .{
+            .url = "git+https://github.com/memononen/budouxc#a044d49afc654117fac7623fff15bec15943270c",
+            .hash = "N-V-__8AAGJXBwBTNIyjubCmgIF4lZxyP-jHQtd60WzbtQMB",
+        },
+    },
+}

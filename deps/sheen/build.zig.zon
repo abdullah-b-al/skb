@@ -1,0 +1,14 @@
+.{
+    .name = .SheenBidi,
+    .version = "0.0.0",
+    .fingerprint = 0x4a89f1d2e5dabb99,
+    .paths = .{""},
+    .minimum_zig_version = "0.16.0",
+
+    .dependencies = .{
+        .SheenBidi = .{
+            .url = "git+https://github.com/Tehreer/SheenBidi#83f77108a2873600283f6da4b326a2dca7a3a7a6",
+            .hash = "N-V-__8AAHe8LwF6n4S3jDUlzJLIka4vXuAcDZnCnNpaR1-l",
+        },
+    },
+}
